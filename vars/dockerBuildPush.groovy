@@ -1,4 +1,4 @@
-def call(String imageName, String imageTag, String dockerHubUser, String credentialsId = 'docker-credentials') {
+def call(String imageName, String imageTag, String dockerHubUser, String credentialsId = 'docker-hub-creds') {
     echo "=========================================="
     echo "Building & Pushing Container Image"
     echo "=========================================="
